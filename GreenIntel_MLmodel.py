@@ -106,7 +106,7 @@ def process_and_detect_weeds():
     model = create_mobilenet_ssd(num_classes=2)
     model.compile(optimizer=tf.keras.optimizers.Adam(learning_rate=0.0001), loss='binary_crossentropy', metrics=['accuracy'])
 
-    history = model.fit(X_train, y_train, epochs=5, batch_size=8, validation_split=0.2, verbose=1)
+    history = model.fit(X_train, y_train, epochs=10, batch_size=8, validation_split=0.2, verbose=1)
 
     test_loss, test_accuracy = model.evaluate(X_test, y_test, verbose=0)
     print(f"🔹 Test Accuracy: {test_accuracy*100:.2f}%")
@@ -119,8 +119,8 @@ def process_and_detect_weeds():
     else:
         print("No test images available for detection.")
 
-    model.save("weed_detection_model.h5")
-    print("Model saved as 'weed_detection_model.h5'")
+    model.save("WeedDetectionModel.h5")
+    print("Model saved as 'WeedDetectionModel.h5'")
 
 if __name__ == "__main__":
     process_and_detect_weeds()
