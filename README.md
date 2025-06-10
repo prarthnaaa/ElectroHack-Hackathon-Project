@@ -11,7 +11,7 @@ This project is an AI-powered autonomous robot designed for smart weed detection
 ## My Contribution
 Developed the Machine Learning model for weed detection, optimizing accuracy across multiple epochs.
 
-[Project Presentation](https://www.canva.com/design/DAGeBAbrknc/zhqzTUj9f6VY5PNQHZGjEA/view?utm_content=DAGeBAbrknc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h9dffca33aa)
+[Project Presentation](https://www.canva.com/design/DAGp9b4_bP0/BkUAVBATgZ2zXs5TjxvbQg/view?utm_content=DAGp9b4_bP0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hb52affb693)
 
 ## Folder Structure
 - **GreenIntel_MLmodel.py** – Training and processing the weed detection model.
