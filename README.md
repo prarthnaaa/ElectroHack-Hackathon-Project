@@ -9,7 +9,7 @@ This project is an AI-powered autonomous robot designed for smart weed detection
 - 🤖 **Walking Robot**: Controlled via Arduino for movement.
 
 ## My Contribution
-Developed the Machine Learning model for weed detection, optimizing accuracy across multiple epochs.
+Developed the Machine Learning model for weed detection using image processing, achieving 98.46% accuracy (20 epochs) and 91.15% accuracy (15 epochs) through model optimization and tuning across multiple training cycles.
 
 [Project Presentation](https://www.canva.com/design/DAGp9b4_bP0/BkUAVBATgZ2zXs5TjxvbQg/view?utm_content=DAGp9b4_bP0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hb52affb693)
 
